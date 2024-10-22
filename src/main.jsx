@@ -10,23 +10,23 @@ import Success from './components/Success.jsx';
 
 const router = createBrowserRouter([
   {
-    path: "/",
+    path: "/EnquireMart/",
     element: <App/>,
     children: [
       {
-        path: "/",
+        path: "/EnquireMart/",
         element: <Home/>,
       },
       {
-        path: "/home",
+        path: "/EnquireMart/home",
         element: <Home/>,
       },
       {
-        path: "/product-enquiry",
+        path: "/EnquireMart/product-enquiry",
         element: <EnquirForm/>,
       },
       {
-        path: "/success",
+        path: "/EnquireMart/success",
         element: <Success/>,
       },
 
