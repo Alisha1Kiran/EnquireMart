@@ -12,6 +12,8 @@ const Navigation = () => {
         setKey("link-2");
       } else if(location.pathname.includes("home")) {
         setKey("link-1");
+      } else {
+        setKey("");
       }
     }, [location]);
 
