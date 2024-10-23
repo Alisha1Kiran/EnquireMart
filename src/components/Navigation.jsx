@@ -10,7 +10,7 @@ const Navigation = () => {
       // Set the active tab based on the current location
       if (location.pathname.includes("product-enquiry")) {
         setKey("link-2");
-      } else {
+      } else if(location.pathname.includes("home")) {
         setKey("link-1");
       }
     }, [location]);
