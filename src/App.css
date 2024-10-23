@@ -106,10 +106,10 @@ footer{
   }
 
   .homeTitle{
-    font-size: xx-large;
+    font-size: x-large;
   }
    .homeMessage{
-    font-size: x-large;
+    font-size: large;
     width: 100%;
   }
 }  
