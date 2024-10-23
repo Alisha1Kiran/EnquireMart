@@ -93,7 +93,7 @@ const EnquirForm = () => {
                 <Card.Text>
                 With supporting text below as a natural lead-in to additional content.
                 </Card.Text> */}
-                <Button variant="secondary" className="confirmSubmit" href="/EnquireMart/success">Confirm</Button>
+                <Button variant="secondary" className="confirmSubmit" href="/#/success">Confirm</Button>
             </Card.Body>
             </Card>
             // <div>

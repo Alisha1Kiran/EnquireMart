@@ -11,10 +11,10 @@ const Navigation = () => {
   return (
     <Nav variant="tabs" activeKey={key} onSelect={(eventKey) => setKey(eventKey)}>
       <Nav.Item>
-        <Nav.Link eventKey="link-1" href="/EnquireMart/home">Home</Nav.Link>
+        <Nav.Link eventKey="link-1" href="/#/home">Home</Nav.Link>
       </Nav.Item>
       <Nav.Item>
-        <Nav.Link eventKey="link-2" href="/EnquireMart/product-enquiry">Product Enquiry</Nav.Link>
+        <Nav.Link eventKey="link-2" href="/#/product-enquiry">Product Enquiry</Nav.Link>
       </Nav.Item>
     </Nav>
   )
