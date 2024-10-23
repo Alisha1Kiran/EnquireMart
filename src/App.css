@@ -92,11 +92,24 @@ footer{
 }
 
 @media only screen and (max-width: 768px) {
+  header{
+    height: 170px;
+    padding-top: 25px;
+  }
   .mainBody{
-    /* background-image: url("./assets/images/background.avif");
-    background-repeat:no-repeat;
-    background-size:cover;
-    background-position:center center; */
     height: 100%;
+  }
+  .enquireForm{
+    width: 100%;
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+
+  .homeTitle{
+    font-size: xx-large;
+  }
+   .homeMessage{
+    font-size: x-large;
+    width: 100%;
   }
 }  
