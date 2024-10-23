@@ -1,20 +1,27 @@
 import React, {useState, useEffect} from 'react'
 import Nav from 'react-bootstrap/Nav';
+import { useLocation } from 'react-router-dom';
 
 const Navigation = () => {
+    const location = useLocation();
     const [key, setKey] = useState("link-1")
-    // useEffect(() => {
-    //     setKey(eventKey)
-    // }, [key])
-    // const handleSelect = (eventKey) => setKey(eventKey);
+    
+    useEffect(() => {
+      // Set the active tab based on the current location
+      if (location.pathname.includes("product-enquiry")) {
+        setKey("link-2");
+      } else {
+        setKey("link-1");
+      }
+    }, [location]);
 
   return (
     <Nav variant="tabs" activeKey={key} onSelect={(eventKey) => setKey(eventKey)}>
       <Nav.Item>
-        <Nav.Link eventKey="link-1" href="/#/home">Home</Nav.Link>
+        <Nav.Link eventKey="link-1" href="/EnquireMart/#/home">Home</Nav.Link>
       </Nav.Item>
       <Nav.Item>
-        <Nav.Link eventKey="link-2" href="/#/product-enquiry">Product Enquiry</Nav.Link>
+        <Nav.Link eventKey="link-2" href="/EnquireMart/#/product-enquiry">Product Enquiry</Nav.Link>
       </Nav.Item>
     </Nav>
   )
