@@ -51,6 +51,11 @@ header{
   animation: enterFromLeft 1.5s ease-out;
 }
 
+.enquireForm{
+  width: 65%;
+  padding-left: 50px;
+}
+
 .confirmCard{
 display: flex !important;
 flex-direction: column !important;
