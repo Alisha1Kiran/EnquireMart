@@ -10,7 +10,7 @@ const App = () => {
     <main className="mainBody">
       <Headerc/>
       <Navigation/>
-      <div className="m-4">
+      <div className="my-4">
         <Outlet/>
       </div>
       <footer className="d-flex justify-content-center align-items-center">

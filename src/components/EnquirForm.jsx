@@ -78,7 +78,7 @@ const EnquirForm = () => {
 
             {
                 confirmForm === true &&
-                <Card className="confirmCard">
+                <Card className="confirmCard mx-2">
                     <Card.Header>Confirm Your Details</Card.Header>
                     <Card.Body className="confirmBody">
                         {/* <div> */}
